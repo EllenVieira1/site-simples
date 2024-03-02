@@ -1,21 +1,34 @@
+<!-- Informar ao navegador qual é a versão do HTML utilizada no arquivo -->
 <!DOCTYPE html>
-<html lang="en">
+<!-- Inicio da página html -->
+<html lang="pt-BR">
+    <!-- Cabeçalho -->
     <head>
+        <!-- define o conjunto de caracteres a ser utilizado na exibição do conteúdo de um site -->
         <meta charset="UTF-8">
+        <!-- Titulo -->
         <title>Simple website</title>
+        <!-- Link CSS -->
         <link rel="stylesheet" href="main.css">
     </head>
+    <!-- Corpo da página -->
     <body class="light-theme">
+        <!-- Titulo principal -->
         <h1>Task List</h1>
+        <!-- Parágrafo -->
         <p id="msg">Current tasks:</p>
+        <!-- Abrindo uma lista -->
         <ul>
+            <!-- Inserindo conteúdo -->
             <li class="list">Add visual styles.</li>
             <li class="list">Add light and dark themes.</li>
             <li>Enable switching the theme.</li>
         </ul>
+        <!-- Divisão -->
         <div>
             <button class="btn">Dark</button>
         </div>
+        <!-- Parte do JavaScript -->
         <script src="app.js"></script>
         <noscript>You need to enable JavaScript to view the full site.</noscript>
     </body>
